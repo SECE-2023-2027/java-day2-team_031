@@ -17,7 +17,6 @@ public class Prob_5 {
         int removeIndex = n - k;
 
         System.out.println("Array after removal:");
-
         for (int i = 0; i < n; i++) {
             if (i == removeIndex) continue;
             System.out.print(arr[i] + " ");
